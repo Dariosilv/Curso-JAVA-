@@ -1,109 +1,202 @@
-# 📘 Curso de Java – Documentação Oficial
+# 📘 Cronograma do Curso de Java
 
-Este repositório contém a documentação e os materiais do **Curso de Java – Introdução à Programação**, organizado por unidades, com exemplos práticos e exercícios.
+**Período total:** 05/02/2026 a 17/04/2026
 
----
-
-## 📌 Informações Gerais
-
-* **Linguagem:** Java
-* **Nível:** Iniciante
-* **Período do curso:** 05/02/2026 a 17/04/2026
-* **Objetivo:** Capacitar o aluno a compreender os fundamentos da programação e desenvolver programas básicos em Java.
+Este documento organiza os conteúdos do curso de Java por módulos (unidades), com datas, objetivos e um espaço reservado para inclusão de códigos-fonte conforme o aprendizado ao longo do curso.
 
 ---
 
-## 🗂️ Estrutura do Repositório
+## 🔹 Primeiros Passos
 
-```bash
-curso-java/
-│
-├── primeiros-passos/
-│   └── README.md
-│
-├── unidade-01-fundamentos/
-├── unidade-02-sintaxe-tipos/
-├── unidade-03-entrada-saida/
-├── unidade-04-condicionais/
-├── unidade-05-repeticao/
-├── unidade-06-funcoes/
-├── unidade-07-metodos/
-├── unidade-08-colecoes/
-├── unidade-09-arquivos/
-│
-├── avaliacao-final/
-│
-└── README.md
-```
+**📅 05/02/2026 a 08/02/2026**
 
----
+**Conteúdos:**
 
-## 🧭 Cronograma do Curso
+* Apresentação do curso e da plataforma
+* Introdução à lógica de programação
+* Instalação e configuração do ambiente Java
+* Primeiros conceitos básicos
 
-| Unidade          | Conteúdo                    | Período       |
-| ---------------- | --------------------------- | ------------- |
-| Primeiros Passos | Introdução e ambiente Java  | 05/02 a 08/02 |
-| Unidade 1        | Fundamentos da Programação  | 09/02 a 15/02 |
-| Unidade 2        | Sintaxe e Tipos de Dados    | 16/02 a 22/02 |
-| Unidade 3        | Entrada, Saída e Atribuição | 23/02 a 01/03 |
-| Unidade 4        | Estruturas Condicionais     | 02/03 a 08/03 |
-| Unidade 5        | Estruturas de Repetição     | 09/03 a 15/03 |
-| Unidade 6        | Funções e Dados             | 16/03 a 22/03 |
-| Unidade 7        | Métodos                     | 23/03 a 29/03 |
-| Unidade 8        | Coleções (Arrays)           | 30/03 a 05/04 |
-| Unidade 9        | Manipulação de Arquivos     | 06/04 a 12/04 |
-| Avaliação Final  | Revisão e Projeto           | 13/04 a 17/04 |
-
----
-
-## 📚 Conteúdo das Unidades (Modelo)
-
-Cada unidade contém:
-
-* 📖 Explicação teórica
-* 💻 Exemplos de código em Java
-* 📝 Exercícios propostos
-
-### Exemplo – Unidade 2: Sintaxe e Tipos de Dados
+**📂 Código (a ser adicionado futuramente):**
 
 ```java
-int idade = 20;
-double salario = 1500.50;
-String nome = "Dário";
+// Código será inserido após o estudo deste módulo
 ```
 
 ---
 
-## ▶️ Como Executar os Códigos
+## 🔹 Unidade 1 – Introdução aos Fundamentos da Programação
 
-1. Instale o **JDK 17** ou superior
-2. Clone o repositório:
+**📅 09/02/2026 a 15/02/2026**
 
-   ```bash
-   git clone https://github.com/seu-usuario/curso-java.git
-   ```
-3. Compile e execute:
+**Conteúdos:**
 
-   ```bash
-   javac Programa.java
-   java Programa
-   ```
+* O que é programação
+* Algoritmos e lógica
+* Estrutura básica de um programa em Java
+* Primeiro programa: Hello World
+
+**📂 Código (a ser adicionado futuramente):**
+
+```java
+// Código será inserido após o estudo deste módulo
+```
 
 ---
 
-## 🎓 Avaliação Final
+## 🔹 Unidade 2 – Sintaxe Básica e Tipos de Dados
 
-A avaliação final consiste em:
+**📅 16/02/2026 a 22/02/2026**
 
+**Conteúdos:**
+
+* Sintaxe da linguagem Java
+* Tipos de dados primitivos
+* Declaração de variáveis
+* Operadores aritméticos e lógicos
+
+**📂 Código (a ser adicionado futuramente):**
+
+```java
+// Código será inserido após o estudo deste módulo
+```
+
+---
+
+## 🔹 Unidade 3 – Comandos de Entrada, Saída e Atribuição
+
+**📅 23/02/2026 a 01/03/2026**
+
+**Conteúdos:**
+
+* Entrada de dados (Scanner)
+* Saída de dados (System.out)
+* Atribuição de valores
 * Exercícios práticos
-* Desenvolvimento de um programa simples em Java
-* Aplicação dos conceitos estudados
+
+**📂 Código (a ser adicionado futuramente):**
+
+```java
+// Código será inserido após o estudo deste módulo
+```
 
 ---
 
-## 📄 Licença
+## 🔹 Unidade 4 – Estruturas Condicionais
 
-Este projeto é destinado exclusivamente para fins educacionais.
+**📅 02/03/2026 a 08/03/2026**
+
+**Conteúdos:**
+
+* Estrutura if, else e else if
+* Estrutura switch-case
+* Tomada de decisão no programa
+
+**📂 Código (a ser adicionado futuramente):**
+
+```java
+// Código será inserido após o estudo deste módulo
+```
+
+---
+
+## 🔹 Unidade 5 – Estruturas de Repetição
+
+**📅 09/03/2026 a 15/03/2026**
+
+**Conteúdos:**
+
+* Laços for, while e do-while
+* Controle de repetição
+* Exercícios com loops
+
+**📂 Código (a ser adicionado futuramente):**
+
+```java
+// Código será inserido após o estudo deste módulo
+```
+
+---
+
+## 🔹 Unidade 6 – Funções e Manipulação de Dados
+
+**📅 16/03/2026 a 22/03/2026**
+
+**Conteúdos:**
+
+* Métodos em Java
+* Parâmetros e retorno
+* Organização do código
+
+**📂 Código (a ser adicionado futuramente):**
+
+```java
+// Código será inserido após o estudo deste módulo
+```
+
+---
+
+## 🔹 Unidade 7 – Criação de Métodos
+
+**📅 23/03/2026 a 29/03/2026**
+
+**Conteúdos:**
+
+* Métodos com e sem retorno
+* Métodos estáticos
+* Boas práticas
+
+**📂 Código (a ser adicionado futuramente):**
+
+```java
+// Código será inserido após o estudo deste módulo
+```
+
+---
+
+## 🔹 Unidade 8 – Coleções Simples
+
+**📅 30/03/2026 a 05/04/2026**
+
+**Conteúdos:**
+
+* Arrays unidimensionais
+* Arrays bidimensionais
+* Manipulação de listas simples
+
+**📂 Código (a ser adicionado futuramente):**
+
+```java
+// Código será inserido após o estudo deste módulo
+```
+
+---
+
+## 🔹 Unidade 9 – Manipulação de Arquivos
+
+**📅 06/04/2026 a 12/04/2026**
+
+**Conteúdos:**
+
+* Leitura de arquivos
+* Escrita de arquivos
+* Persistência de dados
+
+**📂 Código (a ser adicionado futuramente):**
+
+```java
+// Código será inserido após o estudo deste módulo
+```
+
+---
+
+## 📝 Avaliação Final
+
+**📅 13/04/2026 a 17/04/2026**
+
+* Revisão geral dos conteúdos
+* Aplicação prática dos conceitos estudados
+* Consolidação do aprendizado
 
 ---
 
