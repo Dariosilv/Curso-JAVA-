@@ -51,6 +51,7 @@ Este documento organiza os conteúdos do curso de Java por módulos (unidades), 
 **Conteúdos:**
 
 * Sintaxe da linguagem Java
+`Ao escrever um programa de computador temos de ter em mente duas dimensões: a sintaxe e a semântica. A sintaxe é como a gramática da linguagem de programação, define as regras de escrita (pontuação, palavras-chave, estrutura das instruções) e é verificada e validade pelo compilador; a semântica refere-se ao significado do que foi escrito (se o programa, mesmo bem escrito, faz o que deveria fazer`
 * Tipos de dados primitivos
 * Declaração de variáveis
 * Operadores aritméticos e lógicos
@@ -59,6 +60,12 @@ Este documento organiza os conteúdos do curso de Java por módulos (unidades), 
 
 ```java
 // Código será inserido após o estudo deste módulo
+public class OlaMundo {
+    public static void main(String[] args) {
+        System.out.println("Olá, Mundo!");
+    
+    }
+}
 ```
 
 ---
