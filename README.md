@@ -40,13 +40,15 @@ Este documento organiza os conteúdos do curso de Java por módulos (unidades), 
 
 ```java
 // Código de Olá mundo em Java 
-```
+
 public class OlaMundo {
     public static void main(String[] args) {
         System.out.println("Olá, Mundo!");
     
     }
 }
+
+```
 ---
 
 ## 🔹 Unidade 2 – Sintaxe Básica e Tipos de Dados
