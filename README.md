@@ -50,7 +50,36 @@ public class OlaMundo {
 
 ```
 ---
+**📂 Código (Desafio(opcional) em java ):**
 
+```java
+public class DesafioEstudo {
+    public static void main(String[] args) {
+        int HorasPorDia = 2 ;
+        int TotalDeSessoesNaSemana = 3;
+
+        // Somando as duas variáveis
+        int TotalNaSemana = HorasPorDia * TotalDeSessoesNaSemana;
+
+        //Exibindo o resultado
+        System.out.println("***** Rotina de estudos ***** ");
+        System.out.println("Horas por dia: " + HorasPorDia + " horas");
+
+        // Detalhamento dos dias
+        System.out.println("Segunda-feira (manhã): " + HorasPorDia + " horas");
+        System.out.println("Terça-feira (Tarde): "+ HorasPorDia + " horas");
+        System.out.println("Quinta-feira (noite): " + HorasPorDia + " horas");
+
+
+        // Exibindo o Calculo Final
+        System.out.println("Total na semana " + TotalNaSemana + " horas");
+
+    }
+}
+
+```
+
+----
 ## 🔹 Unidade 2 – Sintaxe Básica e Tipos de Dados
 
 **📅 16/02/2026 a 22/02/2026**
