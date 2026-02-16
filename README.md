@@ -67,7 +67,7 @@ public class DesafioEstudo {
 
         // Detalhamento dos dias
         System.out.println("Segunda-feira (manhã): " + HorasPorDia + " horas");
-        System.out.println("Terça-feira (Tarde): "+ HorasPorDia + " horas");
+        System.out.println("Terça-feira (tarde): "+ HorasPorDia + " horas");
         System.out.println("Quinta-feira (noite): " + HorasPorDia + " horas");
 
 
