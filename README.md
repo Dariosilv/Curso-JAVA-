@@ -50,9 +50,26 @@ public class OlaMundo {
 
 ```
 ---
+
+----
+## 🔹 Unidade 2 – Sintaxe Básica e Tipos de Dados
+
+**📅 16/02/2026 a 22/02/2026**
+
+**Conteúdos:**
+
+* Sintaxe da linguagem Java
+
+`Ao escrever um programa de computador temos de ter em mente duas dimensões: a sintaxe e a semântica. A sintaxe é como a gramática da linguagem de programação, define as regras de escrita (pontuação, palavras-chave, estrutura das instruções) e é verificada e validade pelo compilador; a semântica refere-se ao significado do que foi escrito (se o programa, mesmo bem escrito, faz o que deveria fazer`
+* Tipos de dados primitivos
+* Declaração de variáveis
+* Operadores aritméticos e lógicos
+
 **📂 Código (Desafio(opcional) em java ):**
 
 ```java
+
+// Código de Desafio opcional em java
 public class DesafioEstudo {
     public static void main(String[] args) {
         int HorasPorDia = 2 ;
@@ -77,26 +94,6 @@ public class DesafioEstudo {
     }
 }
 
-```
-
-----
-## 🔹 Unidade 2 – Sintaxe Básica e Tipos de Dados
-
-**📅 16/02/2026 a 22/02/2026**
-
-**Conteúdos:**
-
-* Sintaxe da linguagem Java
-
-`Ao escrever um programa de computador temos de ter em mente duas dimensões: a sintaxe e a semântica. A sintaxe é como a gramática da linguagem de programação, define as regras de escrita (pontuação, palavras-chave, estrutura das instruções) e é verificada e validade pelo compilador; a semântica refere-se ao significado do que foi escrito (se o programa, mesmo bem escrito, faz o que deveria fazer`
-* Tipos de dados primitivos
-* Declaração de variáveis
-* Operadores aritméticos e lógicos
-
-**📂 Código (a ser adicionado futuramente):**
-
-```java
-// Código será inserido após o estudo deste módulo
 ```
 
 ---
