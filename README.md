@@ -66,7 +66,7 @@ public class OlaMundo {
   
 `Quando pensamos em resolver um problema no computador, logo surge a pergunta: onde e como vamos guardar as informações necessárias para esse problema? Em programação, usamos diferentes tipos de dados para armazenar diferentes tipos de valores.
 
-Imagine que o computador é uma grande estante cheia de caixas. Cada caixa tem um rótulo indicando o que pode ser guardado dentro dela: números inteiros, números decimais, uma letra, verdadeiro ou falso. Em Java, essas caixas básicas recebem o nome de tipos primitivos.`
+Imagine que o computador é uma grande estante cheia de caixas. Cada caixa tem um rótulo indicando o que pode ser guardado dentro dela: números inteiros, números decimais, uma letra, verdadeiro ou falso. Em Java, essas caixas básicas recebem o nome de tipos primitivos`
 * Declaração de variáveis
 * Operadores aritméticos e lógicos
 
