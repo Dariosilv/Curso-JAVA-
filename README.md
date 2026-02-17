@@ -61,7 +61,12 @@ public class OlaMundo {
 * Sintaxe da linguagem Java
 
 `Ao escrever um programa de computador temos de ter em mente duas dimensões: a sintaxe e a semântica. A sintaxe é como a gramática da linguagem de programação, define as regras de escrita (pontuação, palavras-chave, estrutura das instruções) e é verificada e validade pelo compilador; a semântica refere-se ao significado do que foi escrito (se o programa, mesmo bem escrito, faz o que deveria fazer`
+
 * Tipos de dados primitivos
+  
+`Quando pensamos em resolver um problema no computador, logo surge a pergunta: onde e como vamos guardar as informações necessárias para esse problema? Em programação, usamos diferentes tipos de dados para armazenar diferentes tipos de valores.
+
+Imagine que o computador é uma grande estante cheia de caixas. Cada caixa tem um rótulo indicando o que pode ser guardado dentro dela: números inteiros, números decimais, uma letra, verdadeiro ou falso. Em Java, essas caixas básicas recebem o nome de tipos primitivos.`
 * Declaração de variáveis
 * Operadores aritméticos e lógicos
 
