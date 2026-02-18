@@ -100,7 +100,32 @@ public class DesafioEstudo {
 }
 
 ```
+```Java
+//Codigo de relatorio onde ira abordar os tipos primitivos , constantes, Declaração de variáveis.
+public class RealatorioRapido {
+    public static void main (String[] args) {
+        //Valores declarados
+        String nomeProduto = "Caderno A4";
+        int quantidadeEmEstoque = 12;
+        int precoUnitarioCentavos = 350;
+        boolean dispoonivelParaVenda = true;
+        final int TAXA_ICMS_PERCENTUAL = 18;
 
+        //Cálculos
+        int valorbruto = quantidadeEmEstoque * precoUnitarioCentavos;
+        int icms = valorbruto * TAXA_ICMS_PERCENTUAL /100;
+        int total = valorbruto + icms;
+
+        System.out.println("Produto: " + nomeProduto);
+        System.out.println("Quantidade: " + quantidadeEmEstoque);
+        System.out.println("Preco (centavos): " + precoUnitarioCentavos);
+        System.out.println("Disponivel: " + dispoonivelParaVenda);
+        System.out.println("ICMS (centavos): " + icms);
+        System.out.println("Total (centavos): " + total);
+
+    }
+}
+```
 ---
 
 ## 🔹 Unidade 3 – Comandos de Entrada, Saída e Atribuição
