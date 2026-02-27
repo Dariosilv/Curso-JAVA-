@@ -143,7 +143,6 @@ public class RealatorioRapido {
 
 ```java
 // Atividade em Grupo (TRIO)
-```
 import java.util.Locale;
 import java.util.Scanner;
 
@@ -191,7 +190,7 @@ public class RelatorioOrcamento_2 {
         sc.close();
     }
 }
-
+```
 
 ---
 
