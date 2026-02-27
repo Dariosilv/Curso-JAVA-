@@ -142,8 +142,56 @@ public class RealatorioRapido {
 **📂 Código (a ser adicionado futuramente):**
 
 ```java
-// Código será inserido após o estudo deste módulo
+// Atividade em Grupo (TRIO)
 ```
+import java.util.Locale;
+import java.util.Scanner;
+
+public class RelatorioOrcamento_2 {
+    public static void main(String[] args) {
+        Locale.setDefault(new Locale("pt", "BR"));
+        Scanner sc = new Scanner(System.in).useLocale(Locale.US);
+
+        // Entradas
+        System.out.print("Nome: ");
+        String nome = sc.nextLine();
+
+        System.out.print("Rendimento mensal: ");
+        double rendimento = sc.nextDouble();
+
+        System.out.print("Moradia: ");
+        double moradia = sc.nextDouble();
+
+        System.out.print("Alimentação: ");
+        double alimentacao = sc.nextDouble();
+
+        System.out.print("Transporte: ");
+        double transporte = sc.nextDouble();
+
+        // Cálculos
+        double totalDespesas = moradia + alimentacao + transporte;
+        double saldo = rendimento - totalDespesas;
+        double percentual = (totalDespesas / rendimento) * 100;
+
+
+        System.out.println("\n******** RELATÓRIO DO ORÇAMENTO ********");
+        System.out.println("Nome: " + nome);
+        System.out.printf("Rendimento mensal: R$ %.2f%n", rendimento);
+
+        System.out.println("\nDespesas:");
+        System.out.printf("- Moradia: R$ %.2f%n", moradia);
+        System.out.printf("- Alimentação: R$ %.2f%n", alimentacao);
+        System.out.printf("- Transporte: R$ %.2f%n", transporte);
+
+        System.out.printf("\nTotal de despesas: R$ %.2f%n", totalDespesas);
+        System.out.printf("Saldo do mês: R$ %.2f%n", saldo);
+        System.out.printf("Percentual gasto: %.2f%%%n", percentual);
+        System.out.println("****************************************");
+
+        sc.close();
+    }
+}
+
 
 ---
 
