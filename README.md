@@ -192,6 +192,60 @@ public class RelatorioOrcamento_2 {
 }
 ```
 
+
+```java
+// esafio do modulo 3
+package UNIDADE_3;
+import java.util.Scanner;
+import java.util.Locale;
+
+public class exercicio3 {
+    public static void main(String[] args) {
+        Locale.setDefault(new Locale("pt", "BR"));
+        Scanner entrada = new Scanner(System.in).useLocale(Locale.US);
+
+        System.out.println("Digite o seu nome:");
+        String nome = entrada.nextLine();
+
+        // Notas das provas
+        System.out.println("----- Notas das Provas ----");
+        System.out.print("Digite a nota da prova 1: ");
+        double prova1 = entrada.nextDouble();
+
+        System.out.print("Digite a nota da prova 2: ");
+        double prova2 = entrada.nextDouble();
+
+        // Notas dos Trabalhos
+        System.out.println("----- Notas dos Trabalhos ----");
+        System.out.print("Digite a nota do trabalho 1: ");
+        double trabalho1 = entrada.nextDouble();
+
+        System.out.print("Digite a nota do trabalho 2: ");
+        double trabalho2 = entrada.nextDouble();
+
+        System.out.print("Digite a nota do trabalho 3: ");
+        double trabalho3 = entrada.nextDouble();
+
+        System.out.print("Digite a nota do Trabalho Final: ");
+        double trabalhoFinal = entrada.nextDouble();
+
+        // Calculando a média
+        double mediaProvas = (prova1 + prova2) / 2;
+        double mediaTrabalhos = (trabalho1 + trabalho2 + trabalho3) / 3;
+        double notaFinal = (mediaProvas * 0.60) + (mediaTrabalhos * 0.20) + (trabalhoFinal * 0.20);
+
+        // Resultado final
+        System.out.println("\n--- Relatório de Desempenho do Aluno ---");
+        System.out.printf("Aluno: %s%n", nome);
+        System.out.printf("Média das provas: %.2f%n", mediaProvas);
+        System.out.printf("Média dos trabalhos práticos: %.2f%n", mediaTrabalhos);
+        System.out.printf("Nota final: %.2f%n", notaFinal);
+
+        entrada.close();  // FECHAR O SCANNER
+    }
+}
+
+```
 ---
 
 ## 🔹 Unidade 4 – Estruturas Condicionais
