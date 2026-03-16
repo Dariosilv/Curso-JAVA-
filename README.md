@@ -261,7 +261,72 @@ public class exercicio3 {
 **📂 Código (a ser adicionado futuramente):**
 
 ```java
-// Código será inserido após o estudo deste módulo
+// UNINDADE 4
+
+import java.util.Scanner;
+public class UnidadePraticas {
+        public static void main (String [] args ){
+
+            Scanner sc = new Scanner(System.in);
+
+            int codigo = sc.nextInt();
+            int qtd = sc.nextInt();
+            int pagamento = sc.nextInt();
+
+            //Validaçao de valores
+
+            boolean codigoValido = (codigo >= 1 && codigo <= 5);
+            boolean quantidadeValida = (qtd > 0);
+            boolean pagamentoValido = (pagamento >= 1 && pagamento <= 3);
+
+            if (!codigoValido  || !quantidadeValida || pagamentoValido) {
+                System.out.println("Entrada invalida");
+
+            } else {
+
+                double unitario = 0.0;
+                switch (codigo) {
+                    case 1:  unitario =  4.50; break;
+                    case 2:  unitario =  7.30; break;
+                    case 3:  unitario =  12.00; break;
+                    case 4:  unitario =  3.80 ; break;
+                    case 5:  unitario =  5.90 ; break;
+
+                }
+                // Calcular subtotal
+                double subTotal = unitario * qtd ;
+                // Calcular desconto (5% se quantidade >= 10)
+                double desconto = 0.0;
+                if (qtd >= 10) {
+                    desconto = subTotal * 0.05;
+                }
+                double valorComDesconto = subTotal - desconto;
+
+                double taxa = 0.0;
+                if (pagamento == 3) {
+                    taxa = valorComDesconto * 0.03;
+                }
+
+                //Calculo Total
+                double total = valorComDesconto + taxa;
+
+
+                // Exibir nota fiscal
+                System.out.println("=== NOTA FISCAL ===");
+                System.out.println("Produto: " + codigo);
+                System.out.println("Quantidade: " + qtd);
+                System.out.printf("Unitario: R$ %.2f%n", unitario);
+                System.out.printf("Subtotal: R$ %.2f%n", subTotal);
+                System.out.printf("Desconto: R$ %.2f%n", desconto);
+                System.out.printf("Taxa: R$ %.2f%n", taxa);
+                System.out.printf("Total: R$ %.2f%n", total);
+            }
+            sc.close();
+        }
+
+    }
+
+
 ```
 
 ---
