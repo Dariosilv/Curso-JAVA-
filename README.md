@@ -345,6 +345,44 @@ public class UnidadePraticas {
 
 ```java
 // Código será inserido após o estudo deste módulo
+import java.util.Scanner;
+public class TrilhaExperiente {
+
+    public static void main(String [] args) {
+
+        /*
+        While é uma estrutura de repetição que avalia antes de executar
+        Do while é uma estrutura de repetição que executa antes de avaliar
+        * */
+
+        Scanner entrada = new Scanner(System.in);
+        String nome = new String("aluno");
+        double nota = 0;
+        double media = 0;
+
+        System.out.println("Digite o nome do aluno(para sair digite 'N'): ");
+        nome = entrada.next();
+
+         do {
+             for (int i = 0; i < 4; i++) {
+                 System.out.printf("\nDigite a nota %d:", i + 1);
+                 nota = Double.parseDouble(entrada.next());
+                 media = media + nota;
+             }
+
+             media = media / 4.0;
+             System.out.printf("\nA media do aluno %s foi de %.2f.\n", nome, media);
+             nota = 0;
+             media = 0;
+
+             System.out.println("Digite o nome do aluno(para sair digite 'N'): ");
+             nome = entrada.next();
+
+         }  while (!nome.equalsIgnoreCase("n")) ;
+
+    }
+}
+
 ```
 
 ---
