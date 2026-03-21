@@ -394,6 +394,7 @@ public class TrilhaExperiente {
 **Conteúdos:**
 
 * Métodos em Java
+  `A seguir, são apresentados alguns dos principais métodos da classe String, com sua descrição, exemplos de uso e a saída esperada. O estudo desses métodos é importante porque permite conhecer recursos que o próprio Java já oferece para a manipulação de textos, evitando a criação de soluções mais complexas e otimizando o tempo de programação.`
 * Parâmetros e retorno
 * Organização do código
 
