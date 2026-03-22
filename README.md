@@ -402,6 +402,78 @@ public class TrilhaExperiente {
 
 ```java
 // Código será inserido após o estudo deste módulo
+import java.util.Scanner;
+
+public class GeradorSenha {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // solicita o nome completo do usuário
+        System.out.print("Digite seu nome completo: ");
+        String nomeCompleto = scanner.nextLine().toLowerCase();
+
+        // Gera a senha seguindo as regras especificadas
+        String senha = gerarSenha(nomeCompleto);
+
+        // Exibe a senha gerada
+        System.out.println("Senha gerada: " + senha);
+
+        scanner.close();
+    }
+
+    public static String gerarSenha(String nome) {
+
+        // primeira letra do nome
+        char primeiraLetra = nome.charAt(0);
+
+        // última letra do nome
+        char ultimaLetra = nome.trim().charAt(nome.trim().length() - 1);
+
+        int totalCaracteres = nome.length();
+
+        int qtdVogais = contarVogais(nome);
+
+        int qtdConsoantes = contarConsoantes(nome);
+
+        // Monta a senha
+        return String.valueOf(primeiraLetra) +
+               String.valueOf(ultimaLetra) +
+               "@" +
+               totalCaracteres +
+               "." +
+               qtdVogais +
+               "." +
+               qtdConsoantes;
+    }
+
+    public static int contarVogais(String texto) {
+        int count = 0;
+        String vogais = "aeiouáéíóúãõâêîôûàèìòù";
+
+        for (int i = 0; i < texto.length(); i++) {
+            if (vogais.indexOf(texto.charAt(i)) != -1) {
+                count++;
+            }
+        }
+        return count;
+    }
+
+    public static int contarConsoantes(String texto) {
+        int count = 0;
+        String vogais = "aeiouáéíóúãõâêîôûàèìòù ";
+
+        for (int i = 0; i < texto.length(); i++) {
+            char c = texto.charAt(i);
+
+            // Verifica se é letra e não é vogal
+            if (Character.isLetter(c) && vogais.indexOf(c) == -1) {
+                count++;
+            }
+        }
+        return count;
+    }
+}
 ```
 
 ---
