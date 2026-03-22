@@ -430,7 +430,7 @@ public class GeradorSenha {
         // última letra do nome
         char ultimaLetra = nome.trim().charAt(nome.trim().length() - 1);
 
-        int totalCaracteres = nome.length();
+        int totalCaracteres = nome.length() + 1;
 
         int qtdVogais = contarVogais(nome);
 
