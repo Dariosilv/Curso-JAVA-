@@ -492,6 +492,32 @@ public class GeradorSenha {
 
 ```java
 // Código será inserido após o estudo deste módulo
+import java.util.Scanner;
+
+public class Main {
+
+    public static String verificarMeta(double venda1, double venda2, double venda3) {
+        if (venda1 + venda2 + venda3 >= 5000.0) {
+            return "Meta atingida";
+        }
+        return "Meta não atingida";
+    }
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        double venda1 = scanner.nextDouble();
+        double venda2 = scanner.nextDouble();
+        double venda3 = scanner.nextDouble();
+
+        double total = venda1 + venda2 + venda3;
+
+        System.out.println("Total vendido: " + total);
+        System.out.println("Resultado: " + verificarMeta(venda1, venda2, venda3));
+
+        scanner.close();
+    }
+}
 ```
 
 ---
