@@ -529,6 +529,8 @@ public class Main {
 **Conteúdos:**
 
 * Arrays unidimensionais
+`Um array unidimensional é uma estrutura linear, semelhante a uma lista sequencial, também conhecido como vetor. Cada elemento é armazenado em uma posição, chamada de índice, e todos os elementos devem ser do mesmo tipo. A sintaxe geral para criar um array unidimensional em Java é: <img width="262" height="45" alt="image" src="https://github.com/user-attachments/assets/b2d994e3-df74-4b75-ae42-99db9d6aa0a6" />
+`
 * Arrays bidimensionais
 * Manipulação de listas simples
 
